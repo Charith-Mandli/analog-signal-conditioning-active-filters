@@ -1,0 +1,15 @@
+
+Simulation Setup
+
+All circuits were simulated using LTspice under identical operating conditions to ensure a fair comparison between the different filter topologies. The frequency-domain response of each filter was evaluated using AC sweep analysis, while transient analysis was performed to examine the corresponding time-domain behaviour.
+
+For AC analysis, an input source with an AC amplitude of 1 V was applied, allowing the transfer characteristics to be observed directly. The frequency sweep was performed over a sufficiently wide range to capture the complete passband, transition region and stopband of each filter.
+
+Transient simulations were carried out using sinusoidal input signals at representative frequencies below, near and above the cutoff frequency to illustrate the filtering action under time-domain excitation.
+
+To validate the theoretical design equations, additional simulations were conducted after modifying the resistor and capacitor values. The resulting cutoff frequencies were compared with the expected theoretical values obtained from the RC time constant.
+
+AC Sweep Command:  .ac dec 100 10 100k
+Transient Command:  .tran 0 0.01 0 0.1m
+AC source = 1V
+Supply = ±15V
