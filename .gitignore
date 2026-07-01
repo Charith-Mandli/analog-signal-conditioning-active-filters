@@ -1,0 +1,43 @@
+# ==========================
+# LTspice Generated Files
+# ==========================
+
+*.raw
+*.net
+*.log
+*.op.raw
+*.four
+*.fft
+*.step
+*.bak
+*.tmp
+
+# ==========================
+# LTspice Backup Files
+# ==========================
+
+*.asy~
+*.asc~
+
+# ==========================
+# Operating System Files
+# ==========================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================
+# Editor / IDE Settings
+# ==========================
+
+.vscode/
+.idea/
+
+# ==========================
+# Temporary Files
+# ==========================
+
+*.swp
+*.swo
+*~
